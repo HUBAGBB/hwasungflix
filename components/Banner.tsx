@@ -25,6 +25,7 @@ interface Props {
           <Image
             src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`}
             layout="fill"
+            alt="Picture of the author"
             objectFit="cover"
           />
         </div>
