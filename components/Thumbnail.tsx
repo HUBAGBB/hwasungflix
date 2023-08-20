@@ -17,6 +17,7 @@ function Thumbnail({ movie }: Props) {
         }`}
         className="rounded-sm object-cover md:rounded"
         layout="fill"
+        alt="Picture of the author"
       />
     </div>
   )
